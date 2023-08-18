@@ -1,0 +1,136 @@
+html, body{
+    
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #25282e;
+
+}
+
+
+
+
+.title {
+    margin: 0;
+    text-align: center;
+    color: white;
+    border-color: black;
+
+
+}
+.title h1{
+    font-size: 45px;
+}
+.title p{
+    font-style: italic;
+    font-size: 25px;
+}
+
+
+.form-background{
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #282c34;
+    border-radius: 5px;
+    -webkit-box-shadow: 17px 17px 21px -16px rgba(34, 148, 140, 1);
+        -moz-box-shadow: 17px 17px 21px -16px rgba(34, 148, 140, 1);
+        box-shadow: 17px 17px 21px -16px rgba(34, 148, 140, 1);
+   
+}
+
+.form-background p {
+    
+    text-align: left;
+    color: white;
+    text-shadow: red;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+
+}
+
+.form-background input{
+    width: 100%;
+    line-height: 30px;
+    
+    background-color: #282c34;
+    border-color: #5febf5;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    padding: 3px;
+    font-weight: 500;
+}
+
+::placeholder{
+    color: white;
+    opacity: 0.2;
+    text-align: center;
+}
+
+
+select{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #282c34;
+    border-color: #5febf5;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #5febf5;
+}
+
+input[name="mood"]{
+  display: inline-block;
+  width: auto;
+  margin-bottom: 10px;
+}
+label[type="mood"]{
+    color: white;
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+label[type="tech"] {
+    color: white;
+    display: block;
+}
+textarea{
+    background-color:#232831;
+    color: white;
+    text-align: left;
+    font-weight: 400;
+    border-radius: 5px;
+    opacity: 0.5;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.my-btn{
+        width: 100%;
+            display: block;
+            margin: 0 auto;
+            background-color: #282c34;
+            border-color: #5febf5;
+            border-radius: 5px;
+            color: white;
+            font-size: medium;
+            font-weight: 500;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border: 2px solid #5febf5;
+}
